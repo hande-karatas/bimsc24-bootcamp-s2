@@ -1,0 +1,40 @@
+html {
+    background-color: #b8ecec;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+body {
+    margin: 0;
+}
+
+#div {
+    box-sizing: border-box;
+}
+
+#navbar {
+    height: 50px;
+
+}
+
+#flex {
+    display: flex;
+    height: calc(100vh - 50px);
+    font-size: 20px;
+}
+
+.container {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: navy;
+}
+
+#sidebar {
+    width: 150px;
+}
+
+#main {
+    width: calc(100vw - 150px);
+    /* width: 70%; */
+}
